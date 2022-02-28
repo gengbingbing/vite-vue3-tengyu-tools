@@ -1,0 +1,41 @@
+$headerBg: rgb(22, 20, 20);
+$headerColor: #FFFFFF;
+html {
+    height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+
+    #app {
+        height: 100%;
+    }
+
+    .header {
+        line-height: 50px;
+        height: 50px;
+        background: $headerBg;
+        color: $headerColor;
+        a {
+            text-decoration: unset;
+            color: $headerColor;
+            padding: 0 20px;
+            cursor: pointer;
+            height: 50px;
+            line-height: 50px;
+            display: inline-block;
+            &:hover {
+                background: aqua;
+            }
+        }
+    }
+    .el-loading-mask {
+        background-color: rgba(248, 248, 248, 0.18) !important;
+    }
+
+    .scrollbar-wrapper {
+        overflow-x: hidden !important;
+    }
+}
+
