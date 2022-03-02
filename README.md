@@ -9,5 +9,9 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 ![image](https://user-images.githubusercontent.com/15809531/155986800-f77e85ad-2c32-42b1-bc82-23e7d667358c.png)
 
 
+## 启动如果报错，请检查你的版本，需要12+版本
+![image](https://user-images.githubusercontent.com/15809531/156383063-4f573333-e8d0-479b-b670-81eeb773b88e.png)
+
+
 
 
