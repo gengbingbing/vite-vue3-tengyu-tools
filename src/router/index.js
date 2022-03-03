@@ -79,6 +79,15 @@ const routes = [
                     icon: ''
                 }
             },
+            {
+                path: '/tools/barChart',
+                name: 'barChart',
+                component: () => import('@/pages/tools/barCharts.vue'),
+                meta: {
+                    title: 'barCharts',
+                    icon: ''
+                }
+            },
         ]
       },
       {
