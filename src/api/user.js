@@ -1,3 +1,9 @@
+/*
+ * @Author: bingbing.geng
+ * @Date: 2022-09-20 11:05:36
+ * @LastEditTime: 2022-09-20 11:17:26
+ * @FilePath: \vite-vue3-tengyu-tools\src\api\user.js
+ */
 import axios from '@/utils/service'
 
 function login(userInfo) {

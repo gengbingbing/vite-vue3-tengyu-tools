@@ -1,5 +1,11 @@
+/*
+ * @Author: bingbing.geng
+ * @Date: 2022-09-20 11:05:36
+ * @LastEditTime: 2022-09-20 11:34:50
+ * @FilePath: \vite-vue3-tengyu-tools\src\config\rem.js
+ */
 // 基准大小
-const baseSize = 16
+const baseSize = 24
 // 设置 rem 函数
 function setRem () {
   // 当前页面宽度相对于 750 宽的缩放比例，可根据自己需要修改。

@@ -85,6 +85,7 @@ const onSubmit = () => {
 .login {
   background: #29a57c;
   min-height: 100%;
+  height: 100vh;
   .title {
     padding-top: 10%;
     text-align: center;
