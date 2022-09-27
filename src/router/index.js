@@ -53,6 +53,15 @@ const routes = [
         redirect: '/tools/animation',
         children: [
             {
+                path: '/tools/attrs',
+                name: '$attrs',
+                component: () => import('@/pages/attrs/index.vue'),
+                meta: {
+                    title: '$attrs',
+                    icon: ''
+                }
+            }, 
+            {
                 path: '/tools/animation',
                 name: '动画',
                 component: () => import('@/pages/home/animation.vue'),
