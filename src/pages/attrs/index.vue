@@ -1,7 +1,7 @@
 <!--
  * @Author: bingbing.geng
  * @Date: 2022-09-20 15:07:38
- * @LastEditTime: 2022-09-27 14:34:55
+ * @LastEditTime: 2022-09-27 15:07:04
  * @FilePath: \vite-vue3-tengyu-tools\src\pages\attrs\index.vue
 -->
 <template>
@@ -23,6 +23,8 @@
       <p>W: {{ screen.width }}</p>
       <p>H: {{ screen.height }}</p>
     </div>
+
+    <el-button @click="handClick">按钮</el-button>
   </div>
 </template>
 
@@ -43,4 +45,9 @@ loading.show('紧急运算中...')
 setTimeout(() => {
   loading.hide()
 }, 5000)
+
+const handClick = (e) => {
+  e.disabled = false
+  // debugger
+}
 </script>

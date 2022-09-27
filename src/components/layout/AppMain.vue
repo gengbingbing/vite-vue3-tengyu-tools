@@ -1,3 +1,9 @@
+<!--
+ * @Author: bingbing.geng
+ * @Date: 2022-09-20 11:05:36
+ * @LastEditTime: 2022-09-27 15:23:49
+ * @FilePath: \vite-vue3-tengyu-tools\src\components\layout\AppMain.vue
+-->
 <template>
   <section class="main" :class="key === '/login' ? 'login-main' : 'app-main'">
     <router-view :key="key" v-slot="{ Component }">
@@ -31,6 +37,6 @@ const key = computed(() => {
   width: calc(100% - 48px);
   position: relative;
   overflow: auto;
-  height: inherit;
+  height: calc(100vh - 160px);
 }
 </style>

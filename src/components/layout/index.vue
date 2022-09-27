@@ -1,3 +1,9 @@
+<!--
+ * @Author: bingbing.geng
+ * @Date: 2022-09-20 11:05:36
+ * @LastEditTime: 2022-09-27 15:19:47
+ * @FilePath: \vite-vue3-tengyu-tools\src\components\layout\index.vue
+-->
 <template>
   <SideBar :class="!isCollapse ? 'side-show' : 'side-hide'" class="sidebar-container" />
   <div :class="!isCollapse ? 'main-show' : 'main-hide'" class="main-container">
@@ -30,7 +36,7 @@ const isCollapse = computed(() => store.state.layout.isCollapse)
   overflow: hidden;
 }
 .main-container {
-  height: calc(100% - 50px);
+  height: calc(100vh - 52px);
   transition: margin-left 0.28s;
   position: relative;
   overflow: hidden;
